@@ -1,2 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<torneosATP></torneosATP>
+<torneosATP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="torneosATP.xsd">
+  <torneo>
+    <nombre>Primer torneo</nombre>
+    <fechaIni>2026-04-01</fechaIni>
+    <fechaFin>2026-04-10</fechaFin>
+    <puntosATP>
+      <ronda puntos="100">2da ronda</ronda>
+      <ronda puntos="200">3ra ronda</ronda>
+      <ronda puntos="300">cuartos</ronda>
+    </puntosATP>
+    <cuadro>
+      <cruce>
+        <jugador nombre="Sergio" rankingTorneo="1" />
+        <jugador nombre="Ale" rankingTorneo="2" />
+      </cruce>
+    </cuadro>
+    <partidos>
+      <partido>
+        <tipo>individual masculino</tipo>
+        <jugadores>
+          <lado1>
+            <jugador nombre="Sergio" rankingTorneo="1" />
+          </lado1>
+          <lado2>
+            <jugador nombre="Ale" rankingTorneo="2" />
+          </lado2>
+        </jugadores>
+        <resultado>
+          <set numero="1">
+            <juegos lado1="10" lado2="20" />
+          </set>
+        </resultado>
+      </partido>
+    </partidos>
+  </torneo>
+</torneosATP>
