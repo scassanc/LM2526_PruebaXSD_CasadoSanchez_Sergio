@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE torneosATP SYSTEM "torneosATP.dtd">
+
+<torneosATP>
+  <torneo>
+    <nombre>Mutua Madrid Open</nombre>
+    <fechaIni>2026-04-22</fechaIni>
+    <fechaFin>2026-05-03</fechaFin>
+
+    <puntosATP>
+      <ronda puntos="50">2da ronda</ronda>
+      <ronda puntos="100">3ra ronda</ronda>
+      <ronda puntos="200">cuartos</ronda>
+    </puntosATP>
+
+    <cuadro>
+      <cruce numero="1">
+        <jugador nombre="Carlos Alcaraz" rankingTorneo="1"/>
+        <jugador nombre="Jugador 32" rankingTorneo="32"/>
+      </cruce>
+    </cuadro>
+
+    <partidos>
+      <partido estado="en_juego">
+        <tipo>individual masculino</tipo>
+
+        <jugadores>
+          <lado1>
+            <jugador nombre="Carlos Alcaraz" rankingTorneo="1"/>
+          </lado1>
+          <lado2>
+            <jugador nombre="Jugador 32" rankingTorneo="32"/>
+          </lado2>
+        </jugadores>
+
+        <resultado>
+          <set numero="1">
+            <juegos lado1="6" lado2="4"/>
+          </set>
+          <set numero="2">
+            <juegos lado1="3" lado2="2">
+              <puntosJuego lado1="40" lado2="30"/>
+            </juegos>
+          </set>
+        </resultado>
+      </partido>
+    </partidos>
+  </torneo>
+</torneosATP>

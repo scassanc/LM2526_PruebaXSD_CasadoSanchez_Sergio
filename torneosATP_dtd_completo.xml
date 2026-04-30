@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE torneosATP SYSTEM "torneosATP.dtd">
+
+<torneosATP>
+  <torneo>
+    <nombre>Mutua Madrid Open</nombre>
+    <fechaIni>2026-04-22</fechaIni>
+    <fechaFin>2026-05-03</fechaFin>
+
+    <puntosATP>
+      <ronda puntos="50">2da ronda</ronda>
+      <ronda puntos="100">3ra ronda</ronda>
+      <ronda puntos="200">cuartos</ronda>
+      <ronda puntos="400">semis</ronda>
+      <ronda puntos="650">finalista</ronda>
+      <ronda puntos="1000">ganador</ronda>
+    </puntosATP>
+
+    <cuadro>
+      <cruce numero="1">
+        <jugador nombre="Carlos Alcaraz" rankingTorneo="1"/>
+        <jugador nombre="Jugador 32" rankingTorneo="32"/>
+      </cruce>
+      <cruce numero="2">
+        <jugador nombre="Jannik Sinner" rankingTorneo="2"/>
+        <jugador nombre="Jugador 31" rankingTorneo="31"/>
+      </cruce>
+      <cruce numero="3">
+        <jugador nombre="Jugador 16" rankingTorneo="16"/>
+        <jugador nombre="Jugador 17" rankingTorneo="17"/>
+      </cruce>
+    </cuadro>
+
+    <partidos>
+      <partido estado="en_juego">
+        <tipo>individual masculino</tipo>
+        <jugadores>
+          <lado1>
+            <jugador nombre="Carlos Alcaraz" rankingTorneo="1"/>
+          </lado1>
+          <lado2>
+            <jugador nombre="Jugador 32" rankingTorneo="32"/>
+          </lado2>
+        </jugadores>
+        <resultado>
+          <set numero="1">
+            <juegos lado1="6" lado2="4"/>
+          </set>
+          <set numero="2">
+            <juegos lado1="3" lado2="2">
+              <puntosJuego lado1="40" lado2="30"/>
+            </juegos>
+          </set>
+        </resultado>
+      </partido>
+
+      <partido estado="finalizado">
+        <tipo>dobles masculino</tipo>
+        <jugadores>
+          <lado1>
+            <jugador nombre="Jugador A" rankingTorneo="5"/>
+            <jugador nombre="Jugador B" rankingTorneo="6"/>
+          </lado1>
+          <lado2>
+            <jugador nombre="Jugador C" rankingTorneo="7"/>
+            <jugador nombre="Jugador D" rankingTorneo="8"/>
+          </lado2>
+        </jugadores>
+        <resultado>
+          <set numero="1">
+            <juegos lado1="6" lado2="3"/>
+          </set>
+          <set numero="2">
+            <juegos lado1="7" lado2="5"/>
+          </set>
+        </resultado>
+      </partido>
+    </partidos>
+  </torneo>
+
+  <torneo>
+    <nombre>Barcelona Open Banc Sabadell</nombre>
+    <fechaIni>2026-04-13</fechaIni>
+    <fechaFin>2026-04-19</fechaFin>
+
+    <puntosATP>
+      <ronda puntos="25">2da ronda</ronda>
+      <ronda puntos="50">3ra ronda</ronda>
+      <ronda puntos="100">cuartos</ronda>
+      <ronda puntos="200">semis</ronda>
+      <ronda puntos="330">finalista</ronda>
+      <ronda puntos="500">ganador</ronda>
+    </puntosATP>
+
+    <cuadro>
+      <cruce numero="1">
+        <jugador nombre="Jugador E" rankingTorneo="1"/>
+        <jugador nombre="Jugador F" rankingTorneo="16"/>
+      </cruce>
+      <cruce numero="2">
+        <jugador nombre="Jugador G" rankingTorneo="8"/>
+        <jugador nombre="Jugador H" rankingTorneo="9"/>
+      </cruce>
+    </cuadro>
+
+    <partidos>
+      <partido estado="finalizado">
+        <tipo>individual masculino</tipo>
+        <jugadores>
+          <lado1>
+            <jugador nombre="Jugador E" rankingTorneo="1"/>
+          </lado1>
+          <lado2>
+            <jugador nombre="Jugador F" rankingTorneo="16"/>
+          </lado2>
+        </jugadores>
+        <resultado>
+          <set numero="1">
+            <juegos lado1="6" lado2="2"/>
+          </set>
+          <set numero="2">
+            <juegos lado1="6" lado2="4"/>
+          </set>
+        </resultado>
+      </partido>
+
+      <partido estado="en_juego">
+        <tipo>dobles mixtos</tipo>
+        <jugadores>
+          <lado1>
+            <jugador nombre="Jugador I" rankingTorneo="3"/>
+            <jugador nombre="Jugadora J" rankingTorneo="4"/>
+          </lado1>
+          <lado2>
+            <jugador nombre="Jugador K" rankingTorneo="5"/>
+            <jugador nombre="Jugadora L" rankingTorneo="6"/>
+          </lado2>
+        </jugadores>
+        <resultado>
+          <set numero="1">
+            <juegos lado1="4" lado2="4">
+              <puntosJuego lado1="15" lado2="40"/>
+            </juegos>
+          </set>
+        </resultado>
+      </partido>
+    </partidos>
+  </torneo>
+</torneosATP>
